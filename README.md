@@ -23,37 +23,6 @@ This project implements a complete fake news classification system with the foll
 ```
 Fake_News_Classifier/
 │
-├── data/                          # Dataset storage
-│   └── dataset.csv               # Main dataset (place your dataset here)
-│
-├── models/                       # Trained models and vectorizers
-│   ├── *.pkl                    # Saved model files
-│   ├── *_vectorizer.pkl         # Vectorizer files
-│   ├── best_model.pkl           # Best performing model
-│   └── best_model_info.pkl      # Model metadata
-│
-├── results/                      # Evaluation results and visualizations
-│   ├── *.png                    # Confusion matrices and plots
-│   ├── model_comparison.csv     # Model performance comparison
-│   └── evaluation_report.md     # Detailed evaluation report
-│
-├── app/                          # Streamlit web application
-│   └── streamlit_app.py         # Main application file
-│
-├── preprocessing.py              # Text preprocessing utilities
-├── model_training.py            # Model training pipeline
-├── model_evaluation.py          # Model evaluation utilities
-├── model_tuning.py              # Hyperparameter tuning
-├── prediction_pipeline.py       # Prediction pipeline
-├── requirements.txt             # Python dependencies
-└── README.md                    # This file
-```
-
-
-
-```
-Fake_News_Classifier/
-│
 ├── data/ # Raw dataset
 │ └── dataset.csv
 │
@@ -77,6 +46,7 @@ Fake_News_Classifier/
 └── README.md # You're here!
 
 ```
+
 ---
 
 ## 📊 Features
@@ -85,7 +55,7 @@ Fake_News_Classifier/
 - Logistic Regression
 - Multinomial Naive Bayes
 - Support Vector Machine (SVM)
-- K-Nearest Neighbors (KNN)
+-
 - Random Forest
 
 ### 🔤 Vectorization Methods
@@ -107,24 +77,6 @@ Fake_News_Classifier/
 
 ## ⚙️ Setup & Usage
 
-### 1. 🧾 Data Preparation
-
-Ensure your dataset follows this format:
-
-- CSV format placed in `data/dataset.csv`
-- Must have:
-  - A text column: `text`, `news`, or `content`
-  - A label column: `label`, `target`, or `class`
-  - Labels: `0` = Fake, `1` = Real
-
----
-
-### 2. 🏗️ Model Training
-
-Run:
-
-```bash
-python model_training.py
 
 ✅ Conclusion
 This Fake News Classifier project is a complete end-to-end system built with real-world practicality in mind. It combines robust machine learning models, clean text processing, and an interactive Streamlit interface — making it a great tool for both educational purposes and potential deployment.
@@ -141,5 +93,5 @@ Multi-language support
 
 Browser extension integration
 
-Happy Classifying! 📰🚀
+Thanks for visiting! 📰🚀
 
