@@ -4,7 +4,7 @@ A comprehensive machine learning project for detecting fake news using multiple 
 
 ## 🚀 Live Demo
 
-[Click here to view the deployed Fake News Classifier App]([https://rahulneurobyte-fake-news-classifier.streamlit.app](https://fake-news-classifier-rahulneurobyte.streamlit.app/))
+[Click here to view the deployed Fake News Classifier App](https://fake-news-classifier-rahulneurobyte.streamlit.app/)
 
 ## 🎯 Project Overview
 
