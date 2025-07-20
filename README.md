@@ -2,6 +2,10 @@
 
 A comprehensive machine learning project for detecting fake news using multiple algorithms and a user-friendly Streamlit web application.
 
+## 🚀 Live Demo
+
+[Click here to view the deployed Fake News Classifier App]([https://rahulneurobyte-fake-news-classifier.streamlit.app](https://fake-news-classifier-rahulneurobyte.streamlit.app/))
+
 ## 🎯 Project Overview
 
 This project implements a complete fake news classification system with the following features:
