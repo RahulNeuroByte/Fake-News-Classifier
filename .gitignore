@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+myenv/
+
+# Logs
+*.log
+
+# System-specific
+.DS_Store
+Thumbs.db
+
+# VSCode (optional)
+.vscode/
+
+#  DO NOT IGNORE THESE IN CLOUD DEPLOYMENT:
+#  Do NOT ignore models/*.pkl
+#  Do NOT ignore models/best_model_info.pkl
