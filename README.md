@@ -77,7 +77,7 @@ This will:
 
 
 # Run the Streamlit app
-
+## Visit this link (https://fake-news-classifier-rahulneurobyte.streamlit.app/)
 
 
 
@@ -155,7 +155,7 @@ Current vectorizers use:
 ### Streamlit Cloud Deployment
 
 1. Push your project to GitHub
-2. Connect to [Streamlit Cloud](https://streamlit.io/cloud)
+2. Connect to [[Streamlit Cloud](https://streamlit.io/cloud](https://fake-news-classifier-rahulneurobyte.streamlit.app/))
 3. Deploy directly from your repository
 
 
@@ -187,17 +187,6 @@ results_df = pipeline.predict_from_file('your_file.csv', 'text_column')
 print(results_df.head())
 ```
 
-### Custom Model Training
-
-```python
-from model_training import FakeNewsModelTrainer
-
-# Initialize trainer with custom dataset
-trainer = FakeNewsModelTrainer('path/to/your/dataset.csv')
-
-# Run training pipeline
-results = trainer.run_full_pipeline()
-```
 
 ## 📈 Performance Optimization
 
